@@ -12,7 +12,7 @@ document.querySelectorAll('.login').forEach(loginBtn => {
         document.querySelector('.front-page').style.display = 'none'
         document.querySelector('.login-page').style.display = 'block'
         document.querySelector('.signup-page').style.display = 'none'
-    })
+    }) 
 })
 
 document.querySelectorAll('.signup').forEach(signupBtn => {
@@ -30,7 +30,7 @@ const dropdownItems = document.querySelectorAll('.dropdown-hover')
 if(window.innerWidth < 1000) {
     const menuIcon = document.querySelector('.menu')
     const navbar = document.querySelector('.navbar')
-    
+
     menuIcon.addEventListener('click', () => {
         navbar.classList.toggle('change')
 
